@@ -1,13 +1,12 @@
 
 # SensorVault
 
+## Demo Content
 
-##Demo Content
+## FAQs
 
-##FAQs
+## Contact Information
 
-##Contact Information
+## Report a Problem
 
-##Report a Problem
-
-#Terms of Service
+## Terms of Service
