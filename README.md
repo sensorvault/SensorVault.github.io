@@ -1,5 +1,5 @@
 
-# Alt-SensorVault
+# SensorVault
 
 ## Demo Content
 
