@@ -6,7 +6,7 @@
 ## FAQs
 
 ## Contact Information
-#####Contact sensor
+##### Contact sensor
 
 ## Report a Problem
 
