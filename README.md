@@ -1,12 +1,10 @@
 
-# SensorVault
-
 ## Demo Content
 
 ## FAQs
 
 ## Contact Information
-##### Contact sensor
+##### Contact SensorVault at _____
 
 ## Report a Problem
 
