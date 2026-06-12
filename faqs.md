@@ -13,4 +13,6 @@ During a recording session, UNI captures:
 - Motion (IMU: accelerometer, gyroscope)
 - Location (GPS, outdoor only)
 - Route plan (the walking route requested at session start, from an open mapping service)
-- Audio (environmental sound; see below)\Data is stored locally on your device. You decide what to share with researchers.
+- Audio (environmental sound; see below)
+
+Data is stored locally on your device. You decide what to share with researchers.
