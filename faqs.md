@@ -23,3 +23,13 @@ Like any forward-facing camera, UNI's recordings may incidentally capture bystan
 Most sessions are 15–45 minutes. Sessions longer than 60 minutes may cause device thermal throttling. The app shows session length and storage usage during recording.
 ## Will UNI drain my battery?
 Yes — extended use of camera, depth sensor, and GPS will drain the battery noticeably (typical: 25–35% per hour). We recommend using a battery pack for longer sessions.
+## How do I keep my phone safe during walks?
+Mount the phone securely on the walker or cart using a vibration-damped mount. Quad Lock motorcycle mounts or similar are recommended. Loose mounts cause data quality issues and risk damage to the phone.
+## Is there an IRB protocol covering this?
+We are working with Northeastern's IRB to establish an approved research protocol. For now, UNI is distributed only to researchers and collaborators operating under their own institutional approvals. We do not currently solicit data contributions from members of the public.
+## Who is responsible for UNI?
+UNI is developed and maintained by the RIVeR Lab at Northeastern University, under the supervision of Prof. Taşkın Padır.
+## How is this data used in publications?
+Data shared with the research team will be used for training and evaluating navigation policies. Aggregate results and sample trajectories may appear in academic publications. We will acknowledge community contributors in any dataset release.
+## Can I delete my data?
+Yes. All recorded sessions can be deleted from the app at any time. If you have shared data and later request its removal from our servers, contact us at [email] and we will remove your contributions from active datasets.
