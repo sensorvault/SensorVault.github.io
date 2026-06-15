@@ -32,4 +32,4 @@ UNI is developed and maintained by the RIVeR Lab at Northeastern University, und
 ## How is this data used in publications?
 Data shared with the research team will be used for training and evaluating navigation policies. Aggregate results and sample trajectories may appear in academic publications. We will acknowledge community contributors in any dataset release.
 ## Can I delete my data?
-Yes. All recorded sessions can be deleted from the app at any time. If you have shared data and later request its removal from our servers, contact us at [email] and we will remove your contributions from active datasets.
+Yes. All recorded sessions can be deleted from the app at any time. If you have shared data and later request its removal from our servers, contact us at [vaultsensor@gmail.com](mailto:vaultsensor@gmail.com) and we will remove your contributions from active datasets.
