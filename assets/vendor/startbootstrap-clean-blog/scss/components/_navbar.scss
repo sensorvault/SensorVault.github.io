@@ -35,11 +35,11 @@
 
         .navbar-brand {
             padding: 10px 20px;
-            color: $white;
+            color: $pink;
 
             &:focus,
             &:hover {
-                color: fade-out($white, .2);
+                color: fade-out($pink, .2);
             }
         }
 
@@ -47,11 +47,11 @@
             >li.nav-item {
                 >a {
                     padding: 10px 20px;
-                    color: $white;
+                    color: $pink;
 
                     &:focus,
                     &:hover {
-                        color: fade-out($white, .2);
+                        color: fade-out($pink, .2);
                     }
                 }
             }
@@ -78,8 +78,8 @@
             -webkit-transition: -webkit-transform 0.2s;
             -moz-transition: -moz-transform 0.2s;
             transition: transform 0.2s;
-            border-bottom: 1px solid darken($white, .05);
-            background-color: fade-out($white, .1);
+            border-bottom: 1px solid darken($pink, .05);
+            background-color: fade-out($pink, .1);
 
             .navbar-brand {
                 color: $gray-900;
