@@ -7,3 +7,5 @@ SensorVault is a research data-collection app used for the Universal Navigation 
 # Demo Content
 <img width="1179" height="2556" alt="sensorvault1" src="https://github.com/user-attachments/assets/be76bfc6-c851-42e8-891b-497b0276e8d8" />
 <img width="1179" height="2556" alt="sensorvault2" src="https://github.com/user-attachments/assets/f075d0d7-77ce-44b0-b650-fa11f2d01603" />
+
+<img src="https://github.com/user-attachments/assets/be76bfc6-c851-42e8-891b-497b0276e8d8" alt="App Home Page" style="width:50%; height:auto;">
