@@ -7,7 +7,7 @@
 
     .navbar-brand {
         font-weight: 800;
-        color: $green;
+        color: $green !important;
     }
 
     .navbar-toggler {
@@ -15,7 +15,7 @@
         font-weight: 800;
         padding: 13px;
         text-transform: uppercase;
-        color: $green;
+        color: $green !important;
     }
 
     .navbar-nav {
@@ -35,7 +35,7 @@
 
         .navbar-brand {
             padding: 10px 20px;
-            color: $pink;
+            color: $pink !important;
 
             &:focus,
             &:hover {
@@ -47,7 +47,7 @@
             >li.nav-item {
                 >a {
                     padding: 10px 20px;
-                    color: $pink;
+                    color: $pink !important;
 
                     &:focus,
                     &:hover {
