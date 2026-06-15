@@ -5,4 +5,4 @@ SensorVault is a research data-collection app used for the Universal Navigation 
 
 
 # Demo Content
-
+![App Home Page](https://drive.google.com/file/d/1JPmYjPaXKrXIyBZBPdpoFWX-KipADIaO/view?usp=sharing)
