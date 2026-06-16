@@ -23,6 +23,15 @@ body {
 }
 
 
+header.masthead {
+    margin-bottom: 50px;
+    background: no-repeat center center;
+    background-color: #1671C9;
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover;
+}
+
 #mainNav {
     position: absolute;
     border-bottom: 1px solid #e9ecef;
