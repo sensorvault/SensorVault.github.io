@@ -1,3 +1,4 @@
+page-heading: 'Contact';
 # Contact Information
 To contact us with comments or questions, please email SensorVault at [vaultsensor@gmail.com](mailto:vaultsensor@gmail.com)
 
