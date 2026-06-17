@@ -1,4 +1,3 @@
-# FAQs
 
 ## What does UNI need to work?
 UNI requires an iPhone (with LiDAR if possible — iPhone 12 Pro or newer) mounted on a wheeled platform such as a walker, rollator, or cart. The phone is held at roughly walker-handlebar height (~90 cm) and points forward along the direction of travel.
