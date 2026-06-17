@@ -1,6 +1,3 @@
-<div class="page-heading">
-  <h1>Contact</h1>
-</div>
 
 ## Contact Information
 To contact us with comments or questions, please email SensorVault at [vaultsensor@gmail.com](mailto:vaultsensor@gmail.com)
