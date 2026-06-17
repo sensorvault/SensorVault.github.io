@@ -1,3 +1,7 @@
+<div class="page-heading">
+  <h1>Home</h1>
+</div>
+
 # About
 SensorVault is a research data-collection app used for the Universal Navigation Interface (UNI). UNI, which encompases the development of the SensorVault app, is a research project developed by the RIVeR Lab at Northeastern University in Boston, MA. The UNI probject focuses on the developing field of autonomous mobility aides. UNI uses a walker (or other wheeld platform such as a rollator or cart) and gimbal, as well as an iPhone with the SensorVault App, to collect data. The phone is helped at approximately 90 cm above the ground and points forward along the direction of travel. Through the SensorVault App, UNI records sensor data during walks for research on autonomous accessibility navigation — specifically, training navigation policies for autonomous wheelchairs and assistive mobility robots.
 
