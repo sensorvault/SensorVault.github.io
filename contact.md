@@ -1,5 +1,5 @@
 <div class="page-heading">
-  <h1>About Us</h1>
+  <h1>Contact</h1>
 </div>
 
 ## Contact Information
