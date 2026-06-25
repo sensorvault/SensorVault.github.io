@@ -15,7 +15,7 @@ form: true
         >
 
         <!-- CLICKABLE CIRCLE 1 -->
-        <div
+        <div id="hotspot1"
             onclick="changeImage('https://github.com/user-attachments/assets/f075d0d7-77ce-44b0-b650-fa11f2d01603')"
             style="
                 position:absolute;
@@ -24,7 +24,7 @@ form: true
                 width:40px;
                 height:40px;
                 border-radius:50%;
-                background:rgba(255,0,0,0.6);
+                background:rgba(200,0,50,0.6);
                 border: 2px solid white;
                 cursor:pointer;
             ">
@@ -32,6 +32,16 @@ form: true
 
     </div>
 
-    <script> function changeImage(newSrc) { document.getElementById("mainImage").src = newSrc; } </script>
+    <script>
+window.changeImage = function(newSrc) {
+    document.getElementById("mainImage").src = newSrc;
 
+    // hide circle when second image is shown
+    if (newSrc.includes("f075d0d7")) {
+        document.getElementById("hotspot1").style.display = "none";
+    } else {
+        document.getElementById("hotspot1").style.display = "block";
+    }
+}
+</script>
 </div>
