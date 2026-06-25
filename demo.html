@@ -10,51 +10,49 @@ form: true
     
     <div style="position:relative; display:inline-block;">
 
-        <img
-            id="mainImage"
-            src="https://github.com/user-attachments/assets/be76bfc6-c851-42e8-891b-497b0276e8d8"
-            alt="Map Image"
-            style="width:400px; max-width:100%; height:auto; display:block;"
-        >
+    <img
+        id="mainImage"
+        src="https://github.com/user-attachments/assets/be76bfc6-c851-42e8-891b-497b0276e8d8"
+        alt="Map Image"
+        style="width:400px; max-width:100%; height:auto; display:block;"
+    >
 
-        <!-- CLICKABLE CIRCLE 1 -->
-        <div id="hotspot1"
-            onclick="changeImage('https://github.com/user-attachments/assets/f075d0d7-77ce-44b0-b650-fa11f2d01603')"
-            style="
-                position:absolute;
-                top:805px;
-                left:347px;
-                width:40px;
-                height:40px;
-                border-radius:50%;
-                background:rgba(200,0,100,0.6);
-                border: 2px solid white;
-                cursor:pointer;
-            ">
-        </div>
-           <div id="hotspot2"
-            onclick="changeImage('https://github.com/user-attachments/assets/f075d0d7-77ce-44b0-b650-fa11f2d01603')"
-            style="
-                position:absolute;
-                top:105px;
-                left:347px;
-                width:40px;
-                height:40px;
-                border-radius:50%;
-                background:rgba(200,0,100,0.6);
-                border: 2px solid white;
-                cursor:pointer;
-            ">
-        </div>
-
+    <!-- CLICKABLE CIRCLE 1 (FIRST IMAGE ONLY) -->
+    <div id="hotspot1"
+        onclick="changeImage('https://github.com/user-attachments/assets/f075d0d7-77ce-44b0-b650-fa11f2d01603')"
+        style="
+            position:absolute;
+            top:120px;
+            left:180px;
+            width:40px;
+            height:40px;
+            border-radius:50%;
+            background:rgba(200,0,100,0.6);
+            border: 2px solid white;
+            cursor:pointer;
+        ">
     </div>
 
-    <script>
-window.changeImage = function(newSrc) {
-    document.getElementById("mainImage").src = newSrc;
+    <!-- CLICKABLE CIRCLE 2 (SECOND IMAGE ONLY) -->
+    <div id="hotspot2"
+        onclick="changeImage('https://github.com/user-attachments/assets/be76bfc6-c851-42e8-891b-497b0276e8d8')"
+        style="
+            position:absolute;
+            top:140px;
+            left:220px;
+            width:40px;
+            height:40px;
+            border-radius:50%;
+            background:rgba(200,0,100,0.6);
+            border: 2px solid white;
+            cursor:pointer;
+            display:none;
+        ">
+    </div>
 
-    // hide circle when second image is shown
-    <script>
+</div>
+
+<script>
 window.changeImage = function(newSrc) {
     document.getElementById("mainImage").src = newSrc;
 
