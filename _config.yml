@@ -1,6 +1,6 @@
 title: SensorVault
-baseurl: "/SensorVault"
 url: "https://sensorvault.github.io"
+baseurl: ""
 
 remote_theme: startbootstrap/startbootstrap-clean-blog-jekyll
 
