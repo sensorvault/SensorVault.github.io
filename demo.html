@@ -10,35 +10,47 @@ This is a demo page to learn how to interact with the app.
 </p>
 <hr>
 
-<div style="text-align:center;">
+<div style="position:relative; display:inline-block;">
 
-<img
-    id="mainImage"
-    src="https://github.com/user-attachments/assets/be76bfc6-c851-42e8-891b-497b0276e8d8"
-    usemap="#image-map"
-    alt="Map Image"
-    style="max-width:100%; height:auto;"
->
+    <!-- Image -->
+    <img
+        id="mainImage"
+        src="https://github.com/user-attachments/assets/be76bfc6-c851-42e8-891b-497b0276e8d8"
+        alt="Map Image"
+        style="width:500px; max-width:100%; height:auto; display:block;"
+    >
 
-<map name="image-map">
-    <area shape="rect"
-          coords="34,44,270,350"
-          href="#"
-          onclick="changeImage('https://github.com/user-attachments/assets/f075d0d7-77ce-44b0-b650-fa11f2d01603'); return false;"
-          alt="Region 1">
+    <!-- CLICKABLE CIRCLE 1 -->
+    <div
+        onclick="changeImage('https://github.com/user-attachments/assets/f075d0d7-77ce-44b0-b650-fa11f2d01603')"
+        style="
+            position:absolute;
+            top:120px;
+            left:80px;
+            width:30px;
+            height:30px;
+            border-radius:50%;
+            background:rgba(255,0,0,0.6);
+            border:2px solid white;
+            cursor:pointer;
+        ">
+    </div>
 
-    <area shape="circle"
-          coords="130,136,60"
-          href="#"
-          onclick="changeImage('https://github.com/user-attachments/assets/f075d0d7-77ce-44b0-b650-fa11f2d01603'); return false;"
-          alt="Region 2">
-
-    <area shape="poly"
-          coords="300,50,400,150,350,200"
-          href="#"
-          onclick="changeImage('https://github.com/user-attachments/assets/f075d0d7-77ce-44b0-b650-fa11f2d01603'); return false;"
-          alt="Region 3">
-</map>
+    <!-- CLICKABLE CIRCLE 2 -->
+    <div
+        onclick="changeImage('https://github.com/user-attachments/assets/f075d0d7-77ce-44b0-b650-fa11f2d01603')"
+        style="
+            position:absolute;
+            top:200px;
+            left:150px;
+            width:30px;
+            height:30px;
+            border-radius:50%;
+            background:rgba(0,0,255,0.6);
+            border:2px solid white;
+            cursor:pointer;
+        ">
+    </div>
 
 </div>
 
@@ -47,4 +59,3 @@ function changeImage(newSrc) {
     document.getElementById("mainImage").src = newSrc;
 }
 </script>
-
