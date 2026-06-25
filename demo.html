@@ -32,6 +32,20 @@ form: true
                 cursor:pointer;
             ">
         </div>
+           <div id="hotspot2"
+            onclick="changeImage('https://github.com/user-attachments/assets/f075d0d7-77ce-44b0-b650-fa11f2d01603')"
+            style="
+                position:absolute;
+                top:105px;
+                left:347px;
+                width:40px;
+                height:40px;
+                border-radius:50%;
+                background:rgba(200,0,100,0.6);
+                border: 2px solid white;
+                cursor:pointer;
+            ">
+        </div>
 
     </div>
 
@@ -40,11 +54,20 @@ window.changeImage = function(newSrc) {
     document.getElementById("mainImage").src = newSrc;
 
     // hide circle when second image is shown
-    if (newSrc.includes("f075d0d7")) {
-        document.getElementById("hotspot1").style.display = "none";
-    } else {
+    <script>
+window.changeImage = function(newSrc) {
+    document.getElementById("mainImage").src = newSrc;
+
+    // FIRST IMAGE
+    if (newSrc.includes("be76bfc6")) {
         document.getElementById("hotspot1").style.display = "block";
+        document.getElementById("hotspot2").style.display = "none";
+    }
+
+    // SECOND IMAGE
+    else if (newSrc.includes("f075d0d7")) {
+        document.getElementById("hotspot1").style.display = "none";
+        document.getElementById("hotspot2").style.display = "block";
     }
 }
 </script>
-</div>
