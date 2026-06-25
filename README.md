@@ -10,3 +10,27 @@ SensorVault is a research data-collection app used for the Universal Navigation 
 <img src="https://github.com/user-attachments/assets/be76bfc6-c851-42e8-891b-497b0276e8d8" alt="App Home Page" style="width:30%; height:auto;">
 <img src="https://github.com/user-attachments/assets/f075d0d7-77ce-44b0-b650-fa11f2d01603" alt="App Configuration Page" style="width:30%; height:auto;">
 
+<img id="mainImage" src="https://github.com/user-attachments/assets/be76bfc6-c851-42e8-891b-497b0276e8d8" usemap="#image-map" alt="Map Image">
+
+<map name="image-map">
+  <area shape="rect" coords="34,44,270,350"
+        href="#"
+        onclick="changeImage('image1.jpg'); return false;"
+        alt="Region 1">
+
+  <area shape="circle" coords="130,136,60"
+      href="#"
+      onclick="changeImage('https://github.com/user-attachments/assets/f075d0d7-77ce-44b0-b650-fa11f2d01603'); return false;"
+      alt="Region 2">
+
+  <area shape="poly" coords="300,50,400,150,350,200"
+        href="#"
+        onclick="changeImage('image3.jpg'); return false;"
+        alt="Region 3">
+</map>
+
+<script>
+function changeImage(newSrc) {
+  document.getElementById("mainImage").src = newSrc;
+}
+</script>
