@@ -1,2 +1,13 @@
 title: SensorVault
+baseurl: ""
+url: "https://<your-username>.github.io"
+
 remote_theme: startbootstrap/startbootstrap-clean-blog-jekyll
+
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-remote-theme
